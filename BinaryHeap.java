@@ -73,6 +73,7 @@ public class BinaryHeap {
 	protected void siftdown(int parent) {
 		int child = parent * 2 + 1;
 		
+		//base case
 		if(child >= size)
 			return;
 		
